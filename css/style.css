@@ -51,6 +51,11 @@
     justify-content: space-between;
     padding-left: 30px;
     font-family: 'Poppins-SemiBold';
+    transition: 0.2s ease;
+}
+.nav-link:hover{
+    color: #5863F8;
+
 }
 .burger-bar{
     display: none;
@@ -91,7 +96,9 @@
     border: none;
     color: white;
     margin-top: 20px;
+    cursor: pointer;
 }
+
 .about-btn:focus{
     outline: none;
 }
