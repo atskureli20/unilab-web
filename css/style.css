@@ -1,0 +1,228 @@
+.container{
+    max-width: 1089px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* NAV BAR */
+.logo{  z-index: 3; }
+.header-bg{
+    background-image: url('../img/hero-bg.jpg');
+    max-width: 100%;
+    height: 324px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-bg::before{
+    content: ' ';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo-a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins-Bold';
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navigation{
+    display: flex;
+    z-index: 3;
+}
+.nav-list{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: white;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-family: 'Poppins-SemiBold';
+}
+.burger-bar{
+    display: none;
+    z-index: 9;
+}
+.burger-bar i{
+    z-index: 3;
+    color: white;
+    font-size: 25px;
+    cursor:pointer;
+}
+/* HERO */
+#hero{ 
+    padding-top: 90px; 
+    display: flex; 
+}
+.hero-title{
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 3;
+    font-family: 'Poppins-Extrabold';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* About */
+.about{
+    margin-top: 90px;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-btn{
+    background-color: #5863F8;
+    width: 184px;
+    height: 50px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.about-btn:focus{
+    outline: none;
+}
+.sec-type{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Bold';
+    color: #5863F8;
+}
+.title{
+    font-size: 42px;
+    max-width: 380px;
+    width: 100%;
+    font-family: 'Poppins-Extrabold';
+}
+.article-text{
+    max-width: 444px;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.left-sec{
+    max-width: 552px;
+    width: 100%;
+    margin-top: 39px;
+}
+.images{
+    max-width: 536px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img:nth-child(1), 
+.img:nth-child(2){
+    max-width: 260px;
+    width: 100%;
+    height: 185;
+}
+.img:nth-child(3){
+    max-width: 536px;
+    width: 100%;
+    height: 260px;
+    margin-top: 16px;
+}
+.img:nth-child(3) img{ height: 100%;}
+.img img{
+    width: 100%;
+}
+
+
+/* product */
+.product{
+    background-image: url('../img/product.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    display: flex;
+    position: relative;
+}
+.product::before{
+    content: ' ';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.prod-wrapper{
+    display: flex;
+}
+.content{
+    z-index: 8;
+}
+.prod-wrapper .sec-type{
+    margin-top: 92px;
+    z-index: 6;
+}
+.sec-type{
+    z-index: 50;
+}
+.content .title{
+    color: #FFFFFF;
+    padding-top: 2px;
+}
+.boxes{
+    display: flex;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+}
+.box-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-icon i { font-size: 30px;  line-height: 60px;}
+.box-icon{
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.box{
+    margin-top: 34px;
+    margin-bottom: 30px;
+    width: 260px;
+    background-color: white;
+    margin-right: 12px;
+}
+.box-title{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Poppins-SemiBold';
+}
+.b-wrapper{
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.box-description{
+    display: block;
+    color: #B1B1B1;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
